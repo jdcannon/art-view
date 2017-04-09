@@ -1,0 +1,22 @@
+{
+  "name": "art-view",
+  "version": "1.0.0",
+  "description": "A tumblr Viewer for Artists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tumblr",
+    "art"
+  ],
+  "author": "JDC",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "promise-polyfill": "^6.0.2",
+    "setasap": "^2.0.0",
+    "tumblr.js": "^1.1.1"
+  }
+}

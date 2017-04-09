@@ -1,0 +1,13 @@
+<%- include('../partials/head', {blog: blog}); %>
+<div class="posts">
+		<h1 class="user"><%= blog %></h1>
+		<% if (posts.length > 0) { %>
+				<% posts.forEach(function(post) { %>
+						<% post.photos.forEach(function(photo, index) { %>
+								<%- include('../partials/post', {post: post, index: index }); %>
+						<% }); %>
+				<% }); %>
+		<% } else { %>
+				<h2 class="user">No Images Found</h2>
+		<% } %>
+</div>

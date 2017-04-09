@@ -1,0 +1,4 @@
+<%- include('../partials/head') &>
+<div>
+		<h1>ArtView</h1>
+</div>
